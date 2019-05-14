@@ -1,0 +1,49 @@
+<style>
+  body{
+    margin: 0;
+  }
+  a {
+    color:black;
+    text-decoration: none;
+  }
+  h1{
+    background-image: url('floor.jpg');
+    font-family: monospace;
+    font-style: italic;
+    font-size: 80px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin:0;
+  }
+  h2{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom:0;
+  }
+
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid ol{
+    background-color: khaki;
+    border-right: 1px solid gray;
+    width:100px;
+    margin: 0;
+    padding: 30px;
+  }
+  #article{
+    padding-left: 20px;
+  }
+  #self li{
+    margin: 0;
+  }
+  @media(max-width:800px) {
+    #grid{
+      display: block;
+    }
+    #grid ol{
+      border-right:none;
+    }
+  }
+</style>
